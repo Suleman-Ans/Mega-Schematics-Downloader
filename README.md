@@ -1,29 +1,37 @@
-# Mega-Schematics-Downloader
-This is a simple Mega.nz downloader using [megaapiclient](https://github.com/gpailler/MegaApiClient) plugin for my collected schematics and boarviews for laptops, gpu's, motherboards.
+# Mega Schematics Downloader – Improved
 
-This app will check if i updated the mega link or the app itself (Migrated to github but older version will still check on my server). <br>
-Feel free to check the source code.
+An improved community fork of [Mega Schematics Downloader](https://github.com/KiKiHUN1/Mega-Schematics-Downloader), focused on better performance, usability and download reliability.
+(used AI)
+### Features
 
-Anyways, check out the [release](https://github.com/KiKiHUN1/Mega-Schematics-Downloader/releases) page if you want to use it.
+- Faster browsing and search
+- Optimized database indexing
+- Improved folder navigation
+- Background downloads
+- Download retry handling
+- Configurable download location
+- Improved UI responsiveness
 
+### Requirements
 
-btw.: you can edit the mega link and use this code to download files inside folder trees.
-<hr>
-<p align="center">
-The app window:
-<br>
- <img src="https://github.com/KiKiHUN1/Mega-Schematics-Downloader/assets/71247943/e5c154af-fb14-4643-82b6-e59b6fd00424)" />
-</p>
-<hr>
-<br>
-<br>
-If you like my work, please hit that star icon, thx :) 
-<br>
-<a href="https://star-history.com/#KiKiHUN1/Mega-Schematics-Downloader&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=KiKiHUN1/Mega-Schematics-Downloader&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=KiKiHUN1/Mega-Schematics-Downloader&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=KiKiHUN1/Mega-Schematics-Downloader&type=Date" />
- </picture>
-</a>
+- Windows 10/11
+- .NET 8
 
+### Build
+
+```bash
+git clone https://github.com/Suleman-Ans/Mega-Schematics-Downloader.git
+cd Mega-Schematics-Downloader
+dotnet restore
+dotnet build -c Release
+```
+
+### Credits
+
+Original project by [KiKiHUN1](https://github.com/KiKiHUN1).
+
+This is an independent community-maintained fork and is not affiliated with the original developer.
+
+### License
+
+GPL-3.0 – See [LICENSE](LICENSE) for details.

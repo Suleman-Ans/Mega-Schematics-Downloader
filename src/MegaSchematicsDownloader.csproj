@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>false</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <AssemblyName>MegaSchematicsDownloader</AssemblyName>
+    <RootNamespace>MegaSchematicsDownloader</RootNamespace>
+    <Version>3.2.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MegaApiClient" Version="1.10.3" />
+  </ItemGroup>
+</Project>
